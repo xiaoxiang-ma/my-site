@@ -9,28 +9,94 @@
 
 body {
   background-color: white;
-  width: 50%;
+  width: 60%;
   margin:10px auto 10px auto;
   font-family: lato;
   }
 h1, h2, h3 {
   color: #222222;
   font-family:opensans;
-  padding: 5px;
   }
-p, li{
+p {
   color: #363636;
   font-family:lato;
-  padding:3px;
+  line-height:2em;
   }
+li {
+  line-height:200%;
+}
 li.inline{
   display: inline;
-  margin-right: 10px;
+  /* margin-left: 10px; */
+  margin-right:10px;
 }
-strong{
-  color: black;
+img{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-img.wide{
-  width:50%;
-  margin: 10px auto;
+img.float-right {
+  float: right;
+  width: 20%;
+  }
+em {
+  color: darkblue;
+}
+a:link {
+  color: darkblue;
+  font-weight:bold}
+a:visited {
+  color: darkblue;
+}
+a:hover {
+  background-color: #b3e8ff;
+  text-decoration: underline;}
+#avatar{
+margin-left: 10%;
+width: 30%;
+}
+
+#nav_ul{
+margin-left:0;
+padding-left:0;
+font-size:130%;
+}
+
+strong.position{
+  font-size:120%
+}
+
+.section-title{
+  padding-top: 30px;
+}
+
+.no-newline{
+  line-height:80%
+}
+
+.flex-container{
+  display: flex;
+}
+
+.flex-container > div{
+  border-style: solid;
+  text-align:left;
+  /* align-self:center; */
+}
+
+.foliopic{
+  max-width:90%;
+}
+
+
+.row {
+    display: flex;
+}
+
+.column2{
+    flex: 50%;
+    padding: 40px;
+    align-self:center;
+    /* border-style: solid; */
+
+
+    /* height: 300px; /* Should be removed. Only for demonstration */
 }

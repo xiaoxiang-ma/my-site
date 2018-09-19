@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'lato';
+  src: url('../fonts/Lato-Regular.ttf');
+  }
+
+@font-face {
+  font-family: 'opensans';
+  src: url('../fonts/OpenSans-Light.ttf');}
+
+body {
+  background-color: black;
+  width: 80%;
+  margin:30px auto 30px auto;
+  font-family: lato;
+  }
+h1, h2, h3 {
+  color: #be00ff;
+  font-family:opensans;
+  }
+p {
+  color: #ff3838;
+  font-family:lato;
+  line-height:4em;
+  }
+li {
+  line-height:500%;
+}
+li.inline{
+  display: inline;
+  /* margin-left: 10px; */
+  margin-right:10px;
+}
+img.float-right {
+  float: right;
+  width: 20%;
+  }
+em {
+  color: purple;
+}
+a:link {
+  color: purple;
+  font-weight:bold}
+a:visited {
+  color: red;
+}
+a:hover {
+  background-color: yellow;
+  text-decoration: underline;}
+#avatar{
+margin-left: 30%;
+width: 50%;
+}
+
+#nav_ul{
+margin-left:0;
+padding-left:0;
+font-size:200%;
+}
+
+strong.position{
+  font-size:160%
+}
+
+.no-newline{
+  line-height:80%
+}
+
+.flex-container{
+  display: flex;
+}
+
+.flex-container > div{
+  border-style: solid;
+  text-align:left;
+  /* align-self:center; */
+}
+
+.foliopic{
+  max-width:50vw;
+  max-height:50vw;
+}
