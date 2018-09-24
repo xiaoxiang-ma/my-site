@@ -40,16 +40,18 @@ img.float-right {
 em {
   color: darkblue;
 }
-a:link {
+
+a:link, a:visited{
   color: darkblue;
-  font-weight:bold}
-a:visited {
-  color: darkblue;
+  font-weight:bold;
 }
+
 a:hover {
-  background-color: #b3e8ff;
-  text-decoration: underline;}
-#avatar{
+  background-color:#f7f7f7;
+  /* margin:10px; */
+}
+
+#profile{
 margin-left: 10%;
 width: 30%;
 }
@@ -58,6 +60,19 @@ width: 30%;
 margin-left:0;
 padding-left:0;
 font-size:130%;
+}
+
+nav ul li a{
+  background-color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: darkblue;
+  color:white;
+  text-decoration: underline;
 }
 
 strong.position{
@@ -72,31 +87,19 @@ strong.position{
   line-height:80%
 }
 
-.flex-container{
-  display: flex;
-}
-
-.flex-container > div{
-  border-style: solid;
-  text-align:left;
-  /* align-self:center; */
-}
-
 .foliopic{
   max-width:90%;
 }
 
 
-.row {
+.flex {
     display: flex;
 }
 
-.column2{
+.flex-content{
     flex: 50%;
     padding: 40px;
     align-self:center;
     /* border-style: solid; */
 
-
-    /* height: 300px; /* Should be removed. Only for demonstration */
 }

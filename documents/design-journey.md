@@ -68,17 +68,12 @@ Remember to focus on the things we can't see just by looking at the site: change
 Each section is probably around 1 reasonably sized paragraph (3-5 sentences).
 
 ### Changes from Milestone 2 (Milestone 3)
-
-[What changes did you make from Milestone 2 to content/information/navigation, and why?]
+I added styles to make the site look neat and clean. I picked a font that is easy to read and looks artistic. In terms of content, I re-arranged the portfolio page to make the information more presentable.
 
 ### Visual Design (Milestone 3)
-
-[Discuss your visual designs: how did you come to them, what are their strengths and weaknesses, how do they fit your overall design goals and audiences?]
-
+I came to my visual designs based on simplicity and minimalism. The strengths are conveying information quickly and effectively, the weakness can be not visually appealing enough. They fit my overall goal and audience because my site is meant to be informative, not heavily artistic.
 ### Emotion (Milestone 3)
-
-[Emotion is a big part of design. What emotions where you thinking about or trying to convey in your designs?]
-
+I am trying to convey a emotion of simplicity, everything is direct and easy to process.
 
 ## Final Submission - Rationale
 
@@ -89,25 +84,18 @@ It should be a comprehensive, complete story of the project. You might find that
 Your rationale should be a polished version of the earlier rationales.
 
 ### Changes from Milestone 3 (Final Submission)
-
-- Changes since Milestone 3 and why, particularly ones you learned from testing.
+Redesigned nav bar to make it more interactive. Redesigned portfolio page layout using flexbox. 
 
 ### Audience (Final Submission)
-
-[A complete and polished description of the intended audience(s) for your website.]
-
+The intended audience are recruiters, they are interested in learning about me. They do not have a lot of time looking at my page, so the important parts must be easily visible and the structure must be easy to follow.
 ### Design Goals (Final Submission)
-
-[An explanation of the design goals for that audience, based on your earlier rationales.]
+Since the site would be informative, I like a theme with a white background with little use of colors, colors are only used as a tool to draw attention. Since the recruiters don't have a lot of time looking through my webpage, all the basic information can be found in the homepage, if they are interested in learning more, they can click on nav bar to direct them to detailed subpages.
 
 ### Navigation (Final Submission)
-
-[An explanation of how the final navigation met your goals and why its appropriate for your audience(s).]
+The navigation rests on the top of the page with a hover color change. The bolded text and the horizontal line indicate to the viewers that this is a navigation bar to go to different pages.
 
 ### Organization (Final Submission)
-
-[An explanation of how the final organization met your goals and why its appropriate for your audience(s).]
+The contents are organized by 3 parts: Home, Resume, and portfolio. These are the most representative information about myself.
 
 ### Visual Design (Final Submission)
-
-[An explanation of how the final design met your goals and why its appropriate for your audience(s).]
+The visual design is simplistic and minimalist, information is easily perceived and the flow of logic is seamless.

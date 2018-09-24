@@ -28,6 +28,6 @@ Note: **Forgetting to commit and push your work** before the deadline is not a v
 
 I affirm my awareness of the standards of the Cornell Code of Academic Integrity.
 
-Full Name:
+Full Name: Xiaoxiang Ma
 
-Date:
+Date: Sep 24 2018
