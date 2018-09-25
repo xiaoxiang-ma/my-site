@@ -84,15 +84,16 @@ It should be a comprehensive, complete story of the project. You might find that
 Your rationale should be a polished version of the earlier rationales.
 
 ### Changes from Milestone 3 (Final Submission)
-Redesigned nav bar to make it more interactive. Redesigned portfolio page layout using flexbox. 
+Redesigned nav bar to make it more interactive. When hovered, background color changes. Redesigned portfolio page layout using flexbox. The content in portfolio are easy to follow. I tested my site with two people and they said they love the minimalism. One suggested me to tell the user which page they are currently on in the nav bar, which I thought was a good idea and added a underline in the nav bar.
 
 ### Audience (Final Submission)
 The intended audience are recruiters, they are interested in learning about me. They do not have a lot of time looking at my page, so the important parts must be easily visible and the structure must be easy to follow.
+
 ### Design Goals (Final Submission)
 Since the site would be informative, I like a theme with a white background with little use of colors, colors are only used as a tool to draw attention. Since the recruiters don't have a lot of time looking through my webpage, all the basic information can be found in the homepage, if they are interested in learning more, they can click on nav bar to direct them to detailed subpages.
 
 ### Navigation (Final Submission)
-The navigation rests on the top of the page with a hover color change. The bolded text and the horizontal line indicate to the viewers that this is a navigation bar to go to different pages.
+The navigation rests on the top of the page with a hover color change. The bolded text and the horizontal line indicate to the viewers that this is a navigation bar to go to different pages. The highlighted underline shows user which page they are currently on,
 
 ### Organization (Final Submission)
 The contents are organized by 3 parts: Home, Resume, and portfolio. These are the most representative information about myself.
