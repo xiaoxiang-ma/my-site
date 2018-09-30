@@ -111,3 +111,20 @@ strong.position{
     /* border-style: solid; */
 
 }
+
+.resume{
+  padding:10px;
+  font-size:70%;
+  border-style:solid;
+  border-color:darkblue;
+  background-color:darkblue;
+  color:white;
+  text-decoration:none;
+}
+
+a.resume:hover{
+  border-style:solid;
+  border-color:darkblue;
+  background-color: white;
+  color:darkblue;
+}
