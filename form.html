@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" data-name="viewport" data-content="width=device-width, initial-scale=1"/>
+  <title>Xiaoxiang Ma</title>
+  <link href="styles/v1.css" type="text/css" rel="stylesheet" />
+  <script src="www/scripts/jquery-3.3.1.min.js" type="text/javascript"></script>
+  <script src="www/scripts/validation.js" type="text/javascript"></script>
+
+</head>
+<body>
+<nav>
+  <ul id="nav_ul">
+    <li class="inline"><a href="index.html">Home</a></li>
+    <li class="inline"><a class="thispage" href="form.html">Contact</a></li>
+  </ul>
+</nav>
+<hr />
+<h1>Let's talk!</h1>
+
+<form id="contactForm" method="post" action="https://www.cs.cornell.edu/courses/cs1300/2018fa/submit.php" novalidate>
+  <div class="flexregion">
+    <div class="caption">
+      <label for="userName">Name: </label>
+    </div>
+    <div class="input has-border">
+      <input class="box" id="userName" name="userName" placeholder="Your Name" required/>
+    </div>
+    <div class="error">
+      <p class="errormessage hidden" id="userNameError">! Please enter a name</p>
+    </div>
+  </div>
+
+  <div class="flexregion">
+    <div class="caption">
+      <label for="userEmail">Email: </label>
+    </div>
+    <div class="input has-border">
+      <input class="box" type="email" id="userEmail" name="userEmail" placeholder="Your Email" required/>
+    </div>
+    <div class="error">
+      <p id="userEmailError" class="errormessage hidden">! Please use a valid email</p>
+    </div>
+  </div>
+
+  <div class="flexregion">
+    <div class="caption">
+      <label>Let's talk about: </label>
+    </div>
+    <div class="input">
+      <div>
+        <input type="radio" id="coffee" name="talk" value="coffee" checked/>
+        <label for="coffee">Meeting for a coffee</label>
+      </div>
+      <div>
+        <input type="radio" id="recruiting" name="talk" value="recruiting"/>
+        <label for="recruiting">Recruiting</label>
+      </div>
+      <div>
+        <input type="radio" id="ideas" name="talk" value="ideas"/>
+        <label for="ideas">A brilliant project idea</label>
+      </div>
+      <div>
+        <input type="radio" id="life" name="talk" value="life"/>
+        <label for="life">Life and everything</label>
+      </div>
+    </div>
+    <div class="error">
+      <p id="usercategoryError" class="errormessage hidden">! Please choose a category</p>
+    </div>
+  </div>
+
+  <div class="flexregion">
+    <div class="caption">
+      <label for="userMessage">Message: </label>
+    </div>
+    <div class="input has-border">
+      <textarea class="box" placeholder="What do you want to talk about?" rows="10"  id="userMessage" name="message" required></textarea>
+    </div>
+    <div class="error">
+      <p id="userMessageError" class="errormessage hidden">! Please enter a message</p>
+    </div>
+  </div>
+
+  <div class="flexregion">
+    <div class="caption">
+    </div>
+    <div class="input toright">
+      <button type="submit" class="submit">Submit</button>
+    </div>
+    <div class="error">
+    </div>
+  </div>
+
+
+  </form>
+
+</body>
