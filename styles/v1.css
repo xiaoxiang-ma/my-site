@@ -209,7 +209,7 @@ a.resume:hover{
       object-fit: contain;
     }
     #body {
-      width: 90%;
+      width: 80%;
     }
     #footer{
       /* height: 120px!important; */
@@ -224,15 +224,22 @@ a.resume:hover{
       margin: 0 20px 0 20px !important;
       text-align: center;
     }
-    .contactbutton{
-      margin-right: 0 !important;
-      width: 20px !important;
-    }
+
     .contactarea{
       width: 100px;
     }
     #aboutme{
-      width: 90% !important;
+      width: 100% !important;
+    }
+    nav ul li a {
+      padding: 10px;
+    }
+    nav ul {
+    text-align: center;
+    }
+    #footericon .contactbutton{
+      margin-right: 3px !important;
+      width: 20px !important;
     }
 }
 
