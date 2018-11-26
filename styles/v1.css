@@ -241,6 +241,9 @@ a.resume:hover{
       margin-right: 3px !important;
       width: 20px !important;
     }
+    #myname{
+      font-size: 260%!important;
+    }
 }
 
 .spacer{
