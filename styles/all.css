@@ -294,47 +294,8 @@ footer{
     height: 100px;;
 }
 
-textarea {
-    font-family: 'Lato', sans-serif;
-    font-weight: 200;
-    font-size: 100%;
-    color: #333;
-    width: 100%;
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    resize: none;
-  }
-
-input {
-    font-family: 'Lato', sans-serif;
-    font-weight: 200;
-    font-size: 100%;
-    color: #333;
-    border: 1px solid #ccc;
-    padding: 10px;
-}
-
-.hidden{
-    display: none;
-}
-
-.error{
-    color: red;
-}
 
 .underline{
     text-decoration: underline;
     color:rgb(114, 130, 250);
-}
-label{
-    display: block;
-
-}
-
-.citation{
-    color: green;
-    font-size: 50%;
-    text-align: right;
 }

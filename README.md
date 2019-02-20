@@ -1,3 +1,3 @@
-# Xiaoxiang Ma Personal Site
-Made in 2019 with HTML, CSS, and PHP
-xiaoxiang-ma.github.io
+# Xiaoxiang Ma Personal Website
+See website at: xiaoxiang-ma.github.io
+Made in 2019
