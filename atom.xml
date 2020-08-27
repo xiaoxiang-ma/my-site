@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Hello, I'm Xiaoxiang, &lt;br&gt; a data analyst.</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2020-08-26T23:12:42-04:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>Xiaoxiang Ma</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Predicting Startup Longevity</title>
+   <link href="http://localhost:4000/hmm/2020/05/04/startups.html"/>
+   <updated>2020-05-04T20:00:00-04:00</updated>
+   <id>http://localhost:4000/hmm/2020/05/04/startups</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Improving Badminton Using BWF data</title>
+   <link href="http://localhost:4000/hmm/2019/10/07/badminton.html"/>
+   <updated>2019-10-07T20:00:00-04:00</updated>
+   <id>http://localhost:4000/hmm/2019/10/07/badminton</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+
+</feed>
