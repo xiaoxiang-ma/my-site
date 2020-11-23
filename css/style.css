@@ -6022,7 +6022,6 @@ button.btn, input.btn {
       margin-bottom: 2em; } }
   .content-wrap img.img-responsive {
     object-fit: cover;
-    height: 400px;
     width: 100%; }
     @media only screen and (max-width: 768px) {
       .content-wrap img.img-responsive {
